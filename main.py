@@ -1,5 +1,7 @@
 name = input("Enter your name: ")
 print("Welcome, ", name)
-task = input("Enter a task: ")
-print("Your Task: ", task)
-print("bye")
+tasks = []
+count = int(input("how many tasks do you want to add? "))
+for i in range(count):
+    task = input("Enter a task: ")
+    tasks.append(task)
