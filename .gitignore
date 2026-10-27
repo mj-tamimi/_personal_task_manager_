@@ -1,0 +1,5 @@
+__pycache__/
+tasks.json
+tempCodeRunnerFile.py
+*.log
+.env
