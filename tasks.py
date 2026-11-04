@@ -1,7 +1,7 @@
 import json
 def show_tasks(tasks):
-    with open("tasks.json", "w", encoding="utf-8") as file:
-        file.write("hello")
+    for task in tasks:
+        print(task["name"], "-", task["priority"])
         
 def save_tasks(tasks):
     with open("tasks.json", "w", encoding="utf-8") as file:
