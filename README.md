@@ -1,4 +1,6 @@
 # Personal Task Manager
+![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
+
 A simple task manager built with python
 
 ## Features
@@ -10,6 +12,22 @@ A simple task manager built with python
 ## Requirements
 - Python
 - python-dotenv
+  
+## Project Structure
+```text
+personal_task_manager/
+│   .env.example
+│   .gitignore
+│   main.py
+│   README.md
+│   requirements.txt
+│   tasks.py
+|
+├───pictures/
+│       demo.gif
+│       image.png
+└────────────────────
+```
 
 ## Installation
 Install the required packages:
