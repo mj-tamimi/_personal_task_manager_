@@ -8,7 +8,13 @@ A simple task manager built with python
 - save tasks
 - load saved tasks
 - admin mode
-  
+
+## Priority
+Each task can have one of these priority levels:
+- Low
+- Medium
+- High
+
 ## Requirements
 - Python
 - python-dotenv
